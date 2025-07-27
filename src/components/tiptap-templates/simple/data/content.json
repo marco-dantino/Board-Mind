@@ -4,25 +4,25 @@
     {
       "type": "heading",
       "attrs": {
-        "textAlign": null,
-        "level": 1
+        "level": 1,
+        "textAlign": "center"
       },
       "content": [
         {
           "type": "text",
-          "text": "Getting started"
+          "text": "Board Mind"
         }
       ]
     },
     {
       "type": "paragraph",
       "attrs": {
-        "textAlign": null
+        "textAlign": "justify"
       },
       "content": [
         {
           "type": "text",
-          "text": "Welcome to the "
+          "text": "Una app para tomar notas tipo "
         },
         {
           "type": "text",
@@ -37,197 +37,26 @@
               }
             }
           ],
-          "text": "Simple Editor"
+          "text": "Notion simplificado"
         },
         {
           "type": "text",
-          "text": " template! This template integrates "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "bold"
-            }
-          ],
-          "text": "open source"
-        },
-        {
-          "type": "text",
-          "text": " UI components and Tiptap extensions licensed under "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "bold"
-            }
-          ],
-          "text": "MIT"
-        },
-        {
-          "type": "text",
-          "text": "."
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": null
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Integrate it by following the "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "link",
-              "attrs": {
-                "href": "https://tiptap.dev/docs/ui-components/templates/simple-editor",
-                "target": "_blank",
-                "rel": "noopener noreferrer nofollow",
-                "class": null
-              }
-            }
-          ],
-          "text": "Tiptap UI Components docs"
-        },
-        {
-          "type": "text",
-          "text": " or using our CLI tool."
-        }
-      ]
-    },
-    {
-      "type": "codeBlock",
-      "attrs": {
-        "language": null
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "npx @tiptap/cli init"
+          "text": ", con etiquetas personalizadas, búsqueda rápida y almacenamiento en base de datos."
         }
       ]
     },
     {
       "type": "heading",
       "attrs": {
-        "textAlign": null,
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Features"
-        }
-      ]
-    },
-    {
-      "type": "blockquote",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "italic"
-                }
-              ],
-              "text": "A fully responsive rich text editor with built-in support for common formatting and layout tools. Type markdown "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "code"
-                }
-              ],
-              "text": "**"
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "italic"
-                }
-              ],
-              "text": " or use keyboard shortcuts "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "code"
-                }
-              ],
-              "text": "⌘+B"
-            },
-            {
-              "type": "text",
-              "text": " for "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "strike"
-                }
-              ],
-              "text": "most"
-            },
-            {
-              "type": "text",
-              "text": " all common markdown marks. 🪄"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
+        "level": 2,
         "textAlign": "left"
       },
       "content": [
         {
           "type": "text",
-          "text": "Add images, customize alignment, and apply "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "highlight",
-              "attrs": {
-                "color": "var(--tt-color-highlight-blue)"
-              }
-            }
-          ],
-          "text": "advanced formatting"
-        },
-        {
-          "type": "text",
-          "text": " to make your writing more engaging and professional."
+          "text": "🛠️ Stack:"
         }
       ]
-    },
-    {
-      "type": "image",
-      "attrs": {
-        "src": "/images/tiptap-ui-placeholder-image.jpg",
-        "alt": "placeholder-image",
-        "title": "placeholder-image"
-      }
     },
     {
       "type": "bulletList",
@@ -237,61 +66,16 @@
           "content": [
             {
               "type": "paragraph",
-              "attrs": {
-                "textAlign": "left"
-              },
+              "attrs": { "textAlign": "left" },
               "content": [
                 {
                   "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "Superscript"
+                  "marks": [{ "type": "bold" }],
+                  "text": "Frontend:"
                 },
                 {
                   "type": "text",
-                  "text": " (x"
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "superscript"
-                    }
-                  ],
-                  "text": "2"
-                },
-                {
-                  "type": "text",
-                  "text": ") and "
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "Subscript"
-                },
-                {
-                  "type": "text",
-                  "text": " (H"
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "subscript"
-                    }
-                  ],
-                  "text": "2"
-                },
-                {
-                  "type": "text",
-                  "text": "O) for precision."
+                  "text": " Next.js, React, TailwindCSS"
                 }
               ]
             }
@@ -302,164 +86,354 @@
           "content": [
             {
               "type": "paragraph",
-              "attrs": {
-                "textAlign": "left"
-              },
+              "attrs": { "textAlign": "left" },
               "content": [
                 {
                   "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "Typographic conversion"
+                  "marks": [{ "type": "bold" }],
+                  "text": "Backend:"
                 },
                 {
                   "type": "text",
-                  "text": ": automatically convert to "
+                  "text": " Node.js (API con Next.js App Router o Express)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                {
+                  "type": "text",
+                  "marks": [{ "type": "bold" }],
+                  "text": "Base de datos:"
                 },
                 {
                   "type": "text",
-                  "marks": [
-                    {
-                      "type": "code"
-                    }
-                  ],
-                  "text": "->"
+                  "text": " MongoDB (para flexibilidad en estructura)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                {
+                  "type": "text",
+                  "marks": [{ "type": "bold" }],
+                  "text": "Opcional:"
                 },
                 {
                   "type": "text",
-                  "text": " an arrow "
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "→"
-                },
-                {
-                  "type": "text",
-                  "text": "."
+                  "text": " Redis (para cacheo de búsqueda)"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "italic"
-            }
-          ],
-          "text": "→ "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "link",
-              "attrs": {
-                "href": "https://tiptap.dev/docs/ui-components/templates/simple-editor#features",
-                "target": "_blank",
-                "rel": "noopener noreferrer nofollow",
-                "class": null
-              }
-            }
-          ],
-          "text": "Learn more"
-        }
-      ]
-    },
-    {
-      "type": "horizontalRule"
     },
     {
       "type": "heading",
       "attrs": {
-        "textAlign": "left",
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Make it your own"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
+        "level": 2,
         "textAlign": "left"
       },
       "content": [
         {
           "type": "text",
-          "text": "Switch between light and dark modes, and tailor the editor's appearance with customizable CSS to match your style."
+          "text": "🎯 Objetivos:"
         }
       ]
     },
     {
-      "type": "taskList",
+      "type": "bulletList",
       "content": [
         {
-          "type": "taskItem",
-          "attrs": {
-            "checked": true
-          },
+          "type": "listItem",
           "content": [
             {
               "type": "paragraph",
-              "attrs": {
-                "textAlign": "left"
-              },
+              "attrs": { "textAlign": "left" },
+              "content": [{ "type": "text", "text": "CRUD con MongoDB" }]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [{ "type": "text", "text": "Filtros dinámicos" }]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [{ "type": "text", "text": "Uso de Tailwind para diseño responsive" }]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                { "type": "text", "text": "Uso de " },
+                { "type": "text", "marks": [{ "type": "code" }], "text": "getServerSideProps" },
+                { "type": "text", "text": " o " },
+                { "type": "text", "marks": [{ "type": "code" }], "text": "server actions" },
+                { "type": "text", "text": " para SSR" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🪜 Etapas:"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
               "content": [
                 {
                   "type": "text",
-                  "text": "Test template"
+                  "marks": [{ "type": "bold" }],
+                  "text": "Diseño de UI (Tailwind)"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Sidebar con filtros y etiquetas" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Área de escritura/editado" }]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "type": "taskItem",
-          "attrs": {
-            "checked": false
-          },
+          "type": "listItem",
           "content": [
             {
               "type": "paragraph",
-              "attrs": {
-                "textAlign": "left"
-              },
+              "attrs": { "textAlign": "left" },
+              "content": [
+                { "type": "text", "marks": [{ "type": "bold" }], "text": "Modelo de Datos" }
+              ]
+            },
+            {
+              "type": "bulletList",
               "content": [
                 {
-                  "type": "text",
-                  "marks": [
+                  "type": "listItem",
+                  "content": [
                     {
-                      "type": "link",
-                      "attrs": {
-                        "href": "https://tiptap.dev/docs/ui-components/templates/simple-editor",
-                        "target": "_blank",
-                        "rel": "noopener noreferrer nofollow",
-                        "class": null
-                      }
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Nota: título, contenido, etiquetas, fecha" }]
                     }
-                  ],
-                  "text": "Integrate the free template"
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Etiquetas: nombre, color" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                { "type": "text", "marks": [{ "type": "bold" }], "text": "API Routes (Next.js o Express)" }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Crear, leer, actualizar y eliminar notas" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                { "type": "text", "marks": [{ "type": "bold" }], "text": "Frontend Interactivo (React)" }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Editor en tiempo real" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Filtros por etiquetas" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Buscador con debounce" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                { "type": "text", "marks": [{ "type": "bold" }], "text": "Persistencia y Cacheo" }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Guardar en MongoDB" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Usar Redis para cachear búsquedas frecuentes" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [
+                { "type": "text", "marks": [{ "type": "bold" }], "text": "Autenticación (si querés escalar)" }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "Con NextAuth.js y Google o GitHub login" }]
+                    }
+                  ]
                 }
               ]
             }
@@ -468,10 +442,42 @@
       ]
     },
     {
-      "type": "paragraph",
+      "type": "heading",
       "attrs": {
+        "level": 2,
         "textAlign": "left"
-      }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🧪 Extras:"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [{ "type": "text", "text": "Exportar notas como PDF" }]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": { "textAlign": "left" },
+              "content": [{ "type": "text", "text": "Notas colaborativas en tiempo real (WebSockets)" }]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
